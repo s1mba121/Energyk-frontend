@@ -1,0 +1,33 @@
+{
+    "info": {
+        "name": "Test Yandex API",
+        "description": "Запрос для проверки авторизации в API Кабинета разработчика Яндекса",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Get Projects",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "X-Auth-Key",
+                        "value": "ваш_API_ключ",
+                        "type": "text"
+                    }
+                ],
+                "url": {
+                    "raw": "https://api-developer.tech.yandex.net/projects",
+                    "protocol": "https",
+                    "host": [
+                        "api-developer",
+                        "tech",
+                        "yandex",
+                        "net"
+                    ],
+                    "path": ["projects"]
+                }
+            }
+        }
+    ]
+}

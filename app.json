@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "Energyk-frontend",
-    "slug": "Energyk-frontend",
-    "version": "1.0.0",
+    "name": "Energyk",
+    "slug": "Energyk",
+    "version": "0.1.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Untitled-1.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -17,12 +17,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/Untitled-1.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.s1mba121.Energyk"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "47a1e669-8a12-4cfe-b57e-88c549510c9b"
+      }
     }
   }
 }
